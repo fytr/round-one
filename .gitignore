@@ -1,0 +1,46 @@
+.DS_Store
+*.py[cod]
+node_modules
+.vagrant
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+Gemfile
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Grunt Related
+node_modules
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+settingslocal.py
+
+*.swp
+*.swo
+*.swn
