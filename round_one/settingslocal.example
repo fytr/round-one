@@ -1,0 +1,17 @@
+ENVIRONMENT = 'dev'
+
+DATABASES = { 
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'round_one',
+        'USER': 'round_one',
+        'PASSWORD': 'round_one',
+        'HOST': '127.0.0.1',
+        'PORT': '', 
+    },  
+}
+
+# Change this secret key for each environment.
+SECRET_KEY = 't+@xf!$z1hhi!+)_zpz@p@46fx8zo$6yn_c)#(v$n(lufwefal'
+
+BASE_URL = 'http://localhost:8000'
